@@ -97,6 +97,9 @@ BUILD SUCCESSFUL in 1s
 ```
 (exit code: 0).
 
-Note: when trying to reproduce, make sure the failure is due to the failed test and not some other reason (such as
+Note: the behaviour is observed specifically when running Gradle directly, not when running Gradle tasks through
+IntelliJ IDEA.
+
+Also: when trying to reproduce, make sure the failure is due to the failed test and not some other reason (such as
 missing Java/JDK); failure due to any other reason needs to be fixed first before the buggy behaviour described above
 can be observed.
