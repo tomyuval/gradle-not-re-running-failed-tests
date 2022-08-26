@@ -96,3 +96,7 @@ BUILD SUCCESSFUL in 1s
 29 actionable tasks: 2 executed, 27 up-to-date
 ```
 (exit code: 0).
+
+Note: when trying to reproduce, make sure the failure is due to the failed test and not some other reason (such as
+missing Java/JDK); failure due to any other reason needs to be fixed first before the buggy behaviour described above
+can be observed.
